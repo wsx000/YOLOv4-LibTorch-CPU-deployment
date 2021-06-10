@@ -13,6 +13,6 @@ LibTorch1.5.0-CPU
 3、主函数是main.cpp,里面有单独的图片检测和摄像头视频检测两部分
 
 说明：
-这是CPU版本的
+这是CPU版本的，GPU版的看这里：https://github.com/wsx000/YOLOv4-LibTorch-GPU
 
 
