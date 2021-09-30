@@ -13,6 +13,14 @@ LibTorch1.5.0-CPU
 3、主函数是main.cpp,里面有单独的图片检测和摄像头视频检测两部分
 
 说明：
-这是CPU版本的，GPU版的看这里：https://github.com/wsx000/YOLOv4-LibTorch-GPU
+这是CPU版本的，GPU版的看这里：https://github.com/wsx000/YOLOv4-LibTorch-GPU  
+
+20210930-更新：
+注意 utils.cpp里第172行代码有问题，我比较懒，就先不改啦，具体怎么改可看 https://github.com/wsx000/YOLOv4-LibTorch-GPU-deployment/issues/2
+
+另外，有关 libtorch 在 ROS 中编译不通过的问题的解决，可以看这个链接：
+https://github.com/pytorch/pytorch/issues/49450#issuecomment-930285845
+
+因为后来换研究方向了，这个bug 啥的就只在这里说下，目前太懒就先不改啦（懒得重新配置环境在测试了哈哈），祝各位在 ROS 的世界里快乐学习
 
 
